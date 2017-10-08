@@ -14,4 +14,3 @@
 
 Route::get('/', 'ShelterController@index');
 Route::get('/find-shelter', 'ShelterController@findShelter');
-Route::get('/send-email', 'MailController');
