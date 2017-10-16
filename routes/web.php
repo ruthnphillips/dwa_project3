@@ -11,6 +11,22 @@
 |
 */
 
+/*
+* Dump Config
+*/
+Route::get('/env', function(){
+	dump(config('app.name'));
+	dump(config('app.env'));
+	dump(config('app.debug'));
+	dump(config('app.url'));
+});
 
+/*
+* Home Page
+*/
 Route::get('/', 'ShelterController@index');
+
+/*
+* Shelter
+*/
 Route::get('/find-shelter', 'ShelterController@findShelter');
