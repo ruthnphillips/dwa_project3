@@ -8,7 +8,7 @@
 
 @section('content')
 	<div class="container">
-		<h1>Shelter Finder</h1>
+		<h1>Result: # Shelters </h1>
 
 		<!-- Display found shelters -->
 		<div>
