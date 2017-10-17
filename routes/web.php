@@ -30,3 +30,8 @@ Route::get('/', 'ShelterController@index');
 * Shelter
 */
 Route::get('/find-shelter', 'ShelterController@findShelter');
+
+/*
+* Result
+*/
+Route::get('/result', 'ShelterController@result');

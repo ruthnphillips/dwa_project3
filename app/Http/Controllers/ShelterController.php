@@ -9,12 +9,18 @@ class ShelterController extends Controller
     //GET /
 	public function index()
 	{
-		return 'Show form to collect info';
+		return view('shelter.index');
 	}
 
 	//GET /find-shelter
 	public function findShelter()
 	{
 		return 'perform processing to find shelter';
+	}
+
+	//GET /result
+	public function result()
+	{
+		return view('shelter.result');
 	}
 }
