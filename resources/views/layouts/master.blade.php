@@ -6,7 +6,7 @@
     </title>
 
 	<meta charset='utf-8'>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css "type='text/css' rel='stylesheet'>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type='text/css' rel='stylesheet'>
 	<link href="css/shelter.css" type='text/css' rel='stylesheet'>
 
     @stack('head')
