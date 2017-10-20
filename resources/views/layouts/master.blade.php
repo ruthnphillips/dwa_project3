@@ -21,7 +21,8 @@
             style='width:200px'
             alt='Shelter Logo'></a>
 	</header>
-    <section>
+
+    <section id='container'>
 		@yield('content')
 	</section>
 
