@@ -6,15 +6,17 @@ body {
     font-family: Helvetica,Arial,sans-serif;
     background-color: #fff;
     margin: 0 auto;
-    font-size: 10px;
+    font-size: 12px;
 }
 
-.option-large{
-	font-size:14px;
+.error{
+    color: red;
 }
-h1{
+
+h1, h2, header{
 	text-align: center;
 }
+
 footer {
   position: absolute;
   right: 0;
@@ -23,4 +25,19 @@ footer {
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+}
+
+label{
+    font-size:20px;
+}
+
+li {
+    font-size: 16px;
+}
+
+ol > li {
+    list-style-type: square;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
 }

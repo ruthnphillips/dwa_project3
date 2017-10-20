@@ -15,10 +15,12 @@
 <body>
 
 	<header>
-		<img
-        src='img/logo.png'
-        style='width:200px'
-        alt='Shelter Logo'>
+        <a href="/">
+    		<img
+            src='img/logo2.png'
+            style='width:200px'
+            alt='Shelter Logo'>
+        </a>
 	</header>
 
 	<section>
@@ -28,9 +30,7 @@
 	<footer>
 		&copy; {{ date('Y') }}
 	</footer>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
+    
     @stack('body')
 
 </body>

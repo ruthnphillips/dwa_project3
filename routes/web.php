@@ -27,11 +27,11 @@ Route::get('/env', function(){
 Route::get('/', 'ShelterController@index');
 
 /*
-* Shelter
+* /find-shelter
 */
 Route::get('/find-shelter', 'ShelterController@findShelter');
 
 /*
-* Result
+* /Result
 */
 Route::get('/result', 'ShelterController@result');
