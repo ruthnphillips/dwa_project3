@@ -19,11 +19,9 @@
     		<img
             src='img/logo2.png'
             style='width:200px'
-            alt='Shelter Logo'>
-        </a>
+            alt='Shelter Logo'></a>
 	</header>
-
-	<section>
+    <section>
 		@yield('content')
 	</section>
 
