@@ -7,7 +7,7 @@ use Mail;
 
 class ShelterController extends Controller
 {
-    //GET /
+    //GET Homepage /
 	public function index()
 	{
 		return view('shelter.index');
@@ -72,7 +72,7 @@ class ShelterController extends Controller
             'numShelter'=> $numShelter],
             function($message) use ($email){
                 $message->to($email)
-                ->subject('Shelter Finder Results');
+                ->subject(config('app.name'));
             });
         }
 
