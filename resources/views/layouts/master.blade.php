@@ -22,9 +22,9 @@
             alt='Shelter Logo'></a>
 	</header>
 
-    <section id='container'>
+    <div>
 		@yield('content')
-	</section>
+	</div>
 
 	<footer>
 		&copy; {{ date('Y') }}
