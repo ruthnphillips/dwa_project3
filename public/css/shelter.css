@@ -34,7 +34,11 @@ li {
     font-size: 16px;
 }
 
-.container > ul > li {
+ul {
+  list-style-type: none;
+}
+
+.container > ul > li:first-child {
     list-style-type: square;
     margin-bottom: 10px;
     font-size: 20px;

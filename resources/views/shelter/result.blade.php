@@ -18,11 +18,13 @@
             @foreach ($shelters as $name => $shelter)
                 <ul>
                     <li>{{$name}}</li>
-                    <ul>
-                        <li>Maximum Occupancy: {{$shelter['maxOccupancy']}}</li>
-                        <li>Persons currentlty in shelter: {{$shelter['currentGuests']}}</li>
-                        <li>Pets Allowed: {{$shelter['petsAllowed']}}</li>
-                    </ul>
+                    <li>
+                        <ul>
+                            <li>Maximum Occupancy: {{$shelter['maxOccupancy']}}</li>
+                            <li>Persons currentlty in shelter: {{$shelter['currentGuests']}}</li>
+                            <li>Pets Allowed: {{$shelter['petsAllowed']}}</li>
+                        </ul>
+                    </li>
                 </ul>
             @endforeach
 
