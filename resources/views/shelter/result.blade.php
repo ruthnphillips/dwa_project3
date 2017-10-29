@@ -16,14 +16,14 @@
             <h2>Result: {{$numShelter}} Shelter(s) Available </h2>
 
             @foreach ($shelters as $name => $shelter)
-                <ol>
+                <ul>
                     <li>{{$name}}</li>
                     <ul>
                         <li>Maximum Occupancy: {{$shelter['maxOccupancy']}}</li>
                         <li>Persons currentlty in shelter: {{$shelter['currentGuests']}}</li>
                         <li>Pets Allowed: {{$shelter['petsAllowed']}}</li>
                     </ul>
-                </ol>
+                </ul>
             @endforeach
 
             <!-- inform user email has been sent -->
